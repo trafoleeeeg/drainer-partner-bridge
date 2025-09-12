@@ -21,7 +21,7 @@ const AdvantagesSection = () => {
           <Badge variant="outline" className="mb-4 text-primary border-primary/30">
             Преимущества
           </Badge>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
             Что вы получите
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

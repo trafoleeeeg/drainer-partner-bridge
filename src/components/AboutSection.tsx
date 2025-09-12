@@ -17,7 +17,7 @@ const AboutSection = () => {
           <Badge variant="outline" className="mb-4 text-primary border-primary/30">
             О проекте
           </Badge>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
             Почему DRAINER?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -85,19 +85,19 @@ const AboutSection = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
-            <div className="text-4xl font-bold gradient-text mb-2">15%</div>
+            <div className="text-4xl font-bold text-primary mb-2">15%</div>
             <div className="text-muted-foreground">Средняя конверсия</div>
           </div>
           <div>
-            <div className="text-4xl font-bold gradient-text mb-2">24ч</div>
+            <div className="text-4xl font-bold text-primary mb-2">24ч</div>
             <div className="text-muted-foreground">Время выплат</div>
           </div>
           <div>
-            <div className="text-4xl font-bold gradient-text mb-2">500+</div>
+            <div className="text-4xl font-bold text-primary mb-2">500+</div>
             <div className="text-muted-foreground">Активных партнеров</div>
           </div>
           <div>
-            <div className="text-4xl font-bold gradient-text mb-2">10M+</div>
+            <div className="text-4xl font-bold text-primary mb-2">10M+</div>
             <div className="text-muted-foreground">Обработано кликов</div>
           </div>
         </div>

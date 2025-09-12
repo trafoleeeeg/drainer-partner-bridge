@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, TrendingUp, Shield, Zap } from "lucide-react";
-import drainerLogo from "@/assets/drainer-logo.png";
 
 const HeroSection = () => {
   return (
@@ -11,17 +10,8 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Logo */}
-          <div className="flex justify-center mb-8">
-            <img 
-              src={drainerLogo} 
-              alt="DRAINER" 
-              className="w-24 h-24 animate-float"
-            />
-          </div>
-
           {/* Main heading */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 gradient-text">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary">
             DRAINER
           </h1>
           

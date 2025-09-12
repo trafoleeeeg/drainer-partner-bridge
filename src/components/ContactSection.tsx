@@ -17,7 +17,7 @@ const ContactSection = () => {
           <Badge variant="outline" className="mb-4 text-primary border-primary/30">
             Контакты
           </Badge>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
             Готовы начать?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

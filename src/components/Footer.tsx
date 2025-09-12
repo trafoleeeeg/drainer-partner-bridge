@@ -1,4 +1,3 @@
-import drainerLogo from "@/assets/drainer-logo.png";
 import { Button } from "@/components/ui/button";
 import { Send, MessageCircle } from "lucide-react";
 
@@ -8,12 +7,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Logo and brand */}
-          <div className="flex items-center gap-3">
-            <img src={drainerLogo} alt="DRAINER" className="w-10 h-10" />
-            <div>
-              <h3 className="text-xl font-bold gradient-text">DRAINER</h3>
-              <p className="text-sm text-muted-foreground">Партнерская программа</p>
-            </div>
+          <div>
+            <h3 className="text-xl font-bold text-primary">DRAINER</h3>
+            <p className="text-sm text-muted-foreground">Партнерская программа</p>
           </div>
 
           {/* Quick links */}
