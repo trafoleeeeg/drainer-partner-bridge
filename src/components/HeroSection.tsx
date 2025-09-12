@@ -20,8 +20,8 @@ const HeroSection = () => {
           </h2>
 
           <p className="text-xl text-muted-foreground mb-12 leading-relaxed max-w-3xl mx-auto">
-            Уникальные трафик стратегии и высокие конверсии для арбитражников. 
-            Получите доступ к инновационным инструментам для максимизации прибыли.
+            Устали от низких ставок и задержек выплат? DRAINER — это партнерская программа, 
+            где каждый клик превращается в реальную прибыль. Эксклюзивные офферы, которых нет у конкурентов.
           </p>
 
           {/* CTA buttons */}
@@ -50,20 +50,20 @@ const HeroSection = () => {
           <div className="grid md:grid-cols-3 gap-6 mt-16">
             <Card className="p-6 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300">
               <TrendingUp className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <h3 className="text-lg font-semibold mb-3">Высокие конверсии</h3>
-              <p className="text-muted-foreground">Проверенные схемы с конверсией до 15%</p>
+              <h3 className="text-lg font-semibold mb-3">Первые деньги за 24 часа</h3>
+              <p className="text-muted-foreground">Получите выплату уже на следующий день после первой конверсии</p>
             </Card>
 
             <Card className="p-6 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300">
               <Zap className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <h3 className="text-lg font-semibold mb-3">Быстрые выплаты</h3>
-              <p className="text-muted-foreground">Ежедневные выплаты без задержек</p>
+              <h3 className="text-lg font-semibold mb-3">Без минималки</h3>
+              <p className="text-muted-foreground">Выводите от $1. Никаких скрытых комиссий и условий</p>
             </Card>
 
             <Card className="p-6 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300">
               <Shield className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <h3 className="text-lg font-semibold mb-3">Поддержка 24/7</h3>
-              <p className="text-muted-foreground">Персональный менеджер для каждого партнера</p>
+              <h3 className="text-lg font-semibold mb-3">Только топ-офферы</h3>
+              <p className="text-muted-foreground">Работаем с проверенными рекламодателями. Конверсия гарантирована</p>
             </Card>
           </div>
         </div>

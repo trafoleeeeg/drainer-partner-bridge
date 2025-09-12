@@ -25,23 +25,25 @@ const AdvantagesSection = () => {
             Что вы получите
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Полный пакет инструментов и поддержки для успешного арбитража
+            Сравните наши условия с другими сетями. Почему тысячи арбитражников 
+            переходят именно к нам и больше никуда не уходят?
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h3 className="text-3xl font-bold mb-8">
-              Все необходимое для старта
+              DRAINER vs Другие сети
             </h3>
             
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold mb-2">Готовые связки и креативы</h4>
+                  <h4 className="font-semibold mb-2">Выплаты: Каждый день в 18:00 МСК</h4>
                   <p className="text-muted-foreground">
-                    Проверенные офферы с высокой конверсией и готовые рекламные материалы
+                    Пока другие задерживают на неделями, мы платим автоматически каждый день. 
+                    Без заявок, подтверждений и "технических работ".
                   </p>
                 </div>
               </div>
@@ -49,9 +51,10 @@ const AdvantagesSection = () => {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold mb-2">Персональный менеджер</h4>
+                  <h4 className="font-semibold mb-2">Ставки: На 30-50% выше рынка</h4>
                   <p className="text-muted-foreground">
-                    Индивидуальное сопровождение от опытного специалиста по арбитражу
+                    Прямые договоры с рекламодателями = максимальные ставки для вас. 
+                    Сравните сами — наши $120 за лид против $80 у конкурентов.
                   </p>
                 </div>
               </div>
@@ -59,9 +62,10 @@ const AdvantagesSection = () => {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold mb-2">Эксклюзивные офферы</h4>
+                  <h4 className="font-semibold mb-2">Офферы: Только проверенные временем</h4>
                   <p className="text-muted-foreground">
-                    Доступ к закрытым предложениям с повышенными ставками
+                    Никаких "мертвых" офферов. Каждое предложение тестируется нашей командой. 
+                    Конверсия гарантирована или меняем оффер.
                   </p>
                 </div>
               </div>
@@ -69,9 +73,10 @@ const AdvantagesSection = () => {
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h4 className="font-semibold mb-2">Обучающие материалы</h4>
+                  <h4 className="font-semibold mb-2">Поддержка: Личный менеджер 24/7</h4>
                   <p className="text-muted-foreground">
-                    Видеокурсы, гайды и кейсы от топовых арбитражников
+                    Забудьте о тикетах и ожидании ответов. Ваш персональный менеджер 
+                    всегда на связи в телеграме. Ответ в течение 5 минут.
                   </p>
                 </div>
               </div>
@@ -81,42 +86,42 @@ const AdvantagesSection = () => {
           <div className="grid grid-cols-2 gap-6">
             <Card className="p-6 bg-gradient-card border-primary/20 text-center">
               <Wallet className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <h4 className="font-semibold mb-2">Высокие ставки</h4>
-              <p className="text-sm text-muted-foreground">До $200 за лид</p>
+              <h4 className="font-semibold mb-2">Ставки от $50</h4>
+              <p className="text-sm text-muted-foreground">Без скрытых %</p>
             </Card>
             
             <Card className="p-6 bg-gradient-card border-primary/20 text-center">
               <TrendingUp className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <h4 className="font-semibold mb-2">Растущий рынок</h4>
-              <p className="text-sm text-muted-foreground">+50% ежемесячно</p>
+              <h4 className="font-semibold mb-2">ROI 300%+</h4>
+              <p className="text-sm text-muted-foreground">В среднем у партнеров</p>
             </Card>
             
             <Card className="p-6 bg-gradient-card border-primary/20 text-center">
               <Settings className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <h4 className="font-semibold mb-2">Автоматизация</h4>
-              <p className="text-sm text-muted-foreground">Smart-оптимизация</p>
+              <h4 className="font-semibold mb-2">API интеграция</h4>
+              <p className="text-sm text-muted-foreground">Для ваших скриптов</p>
             </Card>
             
             <Card className="p-6 bg-gradient-card border-primary/20 text-center">
               <HeadphonesIcon className="w-12 h-12 mx-auto mb-4 text-primary" />
-              <h4 className="font-semibold mb-2">Поддержка</h4>
-              <p className="text-sm text-muted-foreground">Ответ за 5 минут</p>
+              <h4 className="font-semibold mb-2">VIP поддержка</h4>
+              <p className="text-sm text-muted-foreground">Приоритет №1</p>
             </Card>
           </div>
         </div>
 
         {/* How it works */}
         <div className="text-center mb-12">
-          <h3 className="text-3xl font-bold mb-8">Как это работает</h3>
+          <h3 className="text-3xl font-bold mb-8">3 простых шага к первым $1000</h3>
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="relative">
               <div className="w-16 h-16 mx-auto mb-4 bg-primary/20 rounded-full flex items-center justify-center">
                 <span className="text-2xl font-bold text-primary">1</span>
               </div>
-              <h4 className="font-semibold mb-2">Регистрация в боте</h4>
+              <h4 className="font-semibold mb-2">Регистрация (2 минуты)</h4>
               <p className="text-muted-foreground">
-                Переходите в телеграм бот и получаете доступ к партнерке
+                Переходите в бот, заполняете простую анкету и получаете персональную ссылку
               </p>
             </div>
             
@@ -124,9 +129,9 @@ const AdvantagesSection = () => {
               <div className="w-16 h-16 mx-auto mb-4 bg-primary/20 rounded-full flex items-center justify-center">
                 <span className="text-2xl font-bold text-primary">2</span>
               </div>
-              <h4 className="font-semibold mb-2">Выбор оффера</h4>
+              <h4 className="font-semibold mb-2">Получение материалов</h4>
               <p className="text-muted-foreground">
-                Выбираете подходящий оффер и получаете рекламные материалы
+                Менеджер подберет топ-оффер под ваш траф и отправит готовые креативы
               </p>
             </div>
             
@@ -134,9 +139,9 @@ const AdvantagesSection = () => {
               <div className="w-16 h-16 mx-auto mb-4 bg-primary/20 rounded-full flex items-center justify-center">
                 <span className="text-2xl font-bold text-primary">3</span>
               </div>
-              <h4 className="font-semibold mb-2">Получение прибыли</h4>
+              <h4 className="font-semibold mb-2">Первые деньги за 24 часа</h4>
               <p className="text-muted-foreground">
-                Льете трафик и получаете ежедневные выплаты
+                Льете трафик и получаете первую выплату уже завтра в 18:00 МСК
               </p>
             </div>
           </div>
